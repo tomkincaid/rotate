@@ -1,43 +1,36 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" initialViewController="JPX-pl-xEJ">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="4510" systemVersion="12F37" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" initialViewController="KXc-lE-gSR">
     <dependencies>
-        <deployment defaultVersion="1792" identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3742"/>
     </dependencies>
     <scenes>
         <!--View Controller - Item-->
-        <scene sceneID="GwS-WT-OP7">
+        <scene sceneID="CMu-PE-jJP">
             <objects>
-                <viewController id="O52-sf-bEf" customClass="ViewController" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="uTD-Fh-hfm">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="519"/>
+                <viewController id="bEW-tP-6NH" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="p25-Lo-i8J">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="975"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="9ga-P5-AZ6">
-                                <rect key="frame" x="0.0" y="20" width="320" height="44"/>
+                            <toolbar opaque="NO" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="3qt-Tq-Yrc">
+                                <rect key="frame" x="0.0" y="20" width="768" height="44"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <items>
-                                    <barButtonItem title="Left" id="ytg-1i-REW">
+                                    <barButtonItem title="Left" id="6fa-0a-Fci">
                                         <connections>
-                                            <action selector="click:" destination="O52-sf-bEf" id="r7k-e4-fiM"/>
+                                            <action selector="click:" destination="bEW-tP-6NH" id="ltI-pY-0CY"/>
                                         </connections>
                                     </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="WXe-Lk-wEI"/>
-                                    <barButtonItem title="Center" id="nFm-Vi-32L">
+                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="lfp-55-Gj0"/>
+                                    <barButtonItem title="Right" id="fN3-7J-sGu">
                                         <connections>
-                                            <action selector="click:" destination="O52-sf-bEf" id="O8L-fk-P0M"/>
-                                        </connections>
-                                    </barButtonItem>
-                                    <barButtonItem style="plain" systemItem="flexibleSpace" id="XQN-wi-D7d"/>
-                                    <barButtonItem title="Right" id="q8u-0K-Fgf">
-                                        <connections>
-                                            <action selector="click:" destination="O52-sf-bEf" id="LjS-yG-l9v"/>
+                                            <action selector="click:" destination="bEW-tP-6NH" id="Vhb-7o-9Xr"/>
                                         </connections>
                                     </barButtonItem>
                                 </items>
                             </toolbar>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8S9-Mg-FhK">
-                                <rect key="frame" x="0.0" y="80" width="320" height="100"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" id="TyV-5h-tnh">
+                                <rect key="frame" x="0.0" y="80" width="768" height="100"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <string key="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
@@ -52,44 +45,44 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPhone" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ULo-G9-a6r">
-                                <rect key="frame" x="139" y="200" width="53" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="iPad" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="xEr-ss-jHi">
+                                <rect key="frame" x="363" y="200" width="35" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item" id="o7v-c9-BcL"/>
-                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <tabBarItem key="tabBarItem" title="Item" id="DcG-Is-3c2"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="lt5-OT-NUm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oaj-Vc-pQU" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1572" y="-9"/>
+            <point key="canvasLocation" x="1009" y="-198"/>
         </scene>
         <!--Tab Bar Controller-->
-        <scene sceneID="dRD-vh-VY9">
+        <scene sceneID="Yg1-s4-ibf">
             <objects>
-                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="JPX-pl-xEJ" sceneMemberID="viewController">
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="KXc-lE-gSR" sceneMemberID="viewController">
                     <toolbarItems/>
                     <nil key="simulatedBottomBarMetrics"/>
-                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="QOm-d3-GVb">
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="l9b-0G-0XS">
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="O52-sf-bEf" kind="relationship" relationship="viewControllers" id="7Yu-kd-uf3"/>
+                        <segue destination="bEW-tP-6NH" kind="relationship" relationship="viewControllers" id="ExT-ZH-qC0"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dcg-pD-cuy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nHf-sg-0lS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1046" y="-9"/>
+            <point key="canvasLocation" x="35" y="-198"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedStatusBarMetrics key="statusBar" statusBarStyle="lightContent"/>
         <simulatedOrientationMetrics key="orientation"/>
-        <simulatedScreenMetrics key="destination" type="retina4"/>
+        <simulatedScreenMetrics key="destination"/>
     </simulatedMetricsContainer>
 </document>

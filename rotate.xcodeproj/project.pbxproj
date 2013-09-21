@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		95DDECF017EDF9D000E89941 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95DDECF217EDF9D000E89941 /* Main-iPad.storyboard */; };
 		95FB2A0A17EC9DE900CBF9A1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FB2A0917EC9DE900CBF9A1 /* Foundation.framework */; };
 		95FB2A0C17EC9DE900CBF9A1 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FB2A0B17EC9DE900CBF9A1 /* CoreGraphics.framework */; };
 		95FB2A0E17EC9DE900CBF9A1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FB2A0D17EC9DE900CBF9A1 /* UIKit.framework */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		95DDECF317EDFA8000E89941 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file; name = Base; path = "Base.lproj/Main-iPad.storyboard"; sourceTree = "<group>"; };
 		95FB2A0617EC9DE900CBF9A1 /* rotate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rotate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95FB2A0917EC9DE900CBF9A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		95FB2A0B17EC9DE900CBF9A1 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -118,6 +120,7 @@
 				95FB2A2217EC9DEA00CBF9A1 /* ViewController.m */,
 				95FB2A2417EC9DEA00CBF9A1 /* Images.xcassets */,
 				95FB2A4217ECA21900CBF9A1 /* Storyboard.storyboard */,
+				95DDECF217EDF9D000E89941 /* Main-iPad.storyboard */,
 				95FB2A1017EC9DE900CBF9A1 /* Supporting Files */,
 			);
 			path = rotate;
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95FB2A2517EC9DEA00CBF9A1 /* Images.xcassets in Resources */,
+				95DDECF017EDF9D000E89941 /* Main-iPad.storyboard in Resources */,
 				95FB2A1417EC9DE900CBF9A1 /* InfoPlist.strings in Resources */,
 				95FB2A4317ECA21900CBF9A1 /* Storyboard.storyboard in Resources */,
 			);
@@ -274,6 +278,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		95DDECF217EDF9D000E89941 /* Main-iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95DDECF317EDFA8000E89941 /* Base */,
+			);
+			name = "Main-iPad.storyboard";
+			sourceTree = "<group>";
+		};
 		95FB2A1217EC9DE900CBF9A1 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
